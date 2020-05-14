@@ -1,5 +1,25 @@
+body {
+background: lightblue;
+text-align: center;
+}
+
 .wrapper{
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+}
+
+img {
+  /* transform: translateX(200px); */
+  /* transform: translateY(-200px); */
+  /* transform: translate(200px, -200px); */
+  /* transform: scaleX(3); */
+  /* transform: scaleX(0.3); */
+  /* transform: scaleY(3); */
+  /* transform: scale(2); */
+  /* transform: scale(0.5, 0.5); */
+  /* transform: rotateX(95deg); */
+  /* transform: rotateY(95deg); */
+  /* transform: rotateZ(90deg); */
+  transform: rotateZ(-90deg) translateY(200px) scale(2);
 }
