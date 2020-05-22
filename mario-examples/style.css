@@ -68,7 +68,7 @@ html, body {
 
 @keyframes drive {
     from {
-        transform: translateX(-200px);
+        transform: translateX(-100px);
     }
 
     to {
